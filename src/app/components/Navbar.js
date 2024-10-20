@@ -22,6 +22,7 @@ export default function Navbar(){
         <nav className={`${stickyNavbar ? "is-sticky" : ""} navbar`} id="navbar">
         <div className="container flex flex-wrap items-center justify-between">
             <Link href="/" className="navbar-brand md:me-8" >
+                <p>TEST SOLOSCHOLAR</p>
                 <Image width={96} height={20} src="/images/logo-dark.png" className="inline-block dark:hidden" alt=""/>
                 <Image width={96} height={20} src="/images/logo-light.png" className="hidden dark:inline-block" alt=""/>
             </Link>
