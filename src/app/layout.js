@@ -9,8 +9,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Dennis - Next Js Personal Portfolio Template',
-  description: 'Dennis - Next Js Personal Portfolio Template',
+  title: 'SoloScholar',
+  description: 'SoloScholar',
 }
 
 export default function RootLayout({ children }) {
