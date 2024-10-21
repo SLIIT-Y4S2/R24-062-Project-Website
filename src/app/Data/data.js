@@ -175,3 +175,31 @@ export const review = [
     },
 ]
 
+export const Technologies = [
+    {
+        title:'React',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        img: '/images/framework/React-05.png'
+    },
+    {
+        title:'LangChain',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        img: '/images/framework/LangChain-Logo-min.png'
+    },
+    {
+        title:'MongoDB',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        img: '/images/framework/LangChain.png'
+    },
+    {
+        title:'Express',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        img: '/images/tech/react.png'
+    },
+    {
+        title:'React Native',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        img: '/images/tech/react.png'
+    }
+]
+
