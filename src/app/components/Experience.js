@@ -38,7 +38,7 @@ export default function Experience() {
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
                     During this phase, we carefully assessed and selected a
                     research topic that held significant relevance to our
-                    project's goals, ensuring that our research direction was
+                    project&apos;s goals, ensuring that our research direction was
                     well-founded.
                   </p>
                   {/* <progress className="w-full mt-3" value="10" max="100"></progress> */}
@@ -115,7 +115,7 @@ export default function Experience() {
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
                     During this phase, we presented an initial overview of our
                     research progress to stakeholders, providing a glimpse of
-                    our project's development and key findings.
+                    our project&apos;s development and key findings.
                   </p>
                   <div
                     className="w-full"
@@ -221,9 +221,9 @@ export default function Experience() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">Document</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    During this phase, we updated the project's status in our
+                    During this phase, we updated the project&apos;s status in our
                     second status document, highlighting any changes in the
-                    project's status and findings that had occurred since the
+                    project&apos;s status and findings that had occurred since the
                     initial status document.
                   </p>
                   <div
