@@ -37,6 +37,15 @@ export default function GetInTouch(){
     const[email, setEmail] = React.useState("");
     const[subject, setSubject] = React.useState("");
     const[message, setMessage] = React.useState("");
+    const[isDisabled, setIsDisabled] = React.useState(false);
+
+    function resetForm(){
+        setIsDisabled(false);
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+    }
 
     return(
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="contact">
@@ -50,9 +59,12 @@ export default function GetInTouch(){
             <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
                 <div className="lg:col-span-8">
                     <div className="p-6 rounded-md shadow bg-white dark:bg-slate-900">
-                        <form onSubmit={(e) => {
+                        <form onSubmit={async (e) => {
+                            console.log("PRESSED");
                             e.preventDefault();
-                            handleSubmit({name, email, subject, message});
+                            setIsDisabled(true);
+                            await handleSubmit({name, email, subject, message});
+                            resetForm();
                         }}>
                             <div className="grid lg:grid-cols-12 lg:gap-5">
                                 <div className="lg:col-span-6 mb-5">
@@ -73,7 +85,9 @@ export default function GetInTouch(){
                                     <textarea name="comments" id="comments" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Message :" onChange={(e) => setMessage(e.target.value)} value={message} required></textarea>
                                 </div>
                             </div>
-                            <button type="submit" id="submit" name="send" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Send Message</button>
+                            <button type="submit" id="submit" name="send" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center" disabled={isDisabled}>
+                                {isDisabled ? 'Sending...' : 'Send Message'}
+                            </button>
                         </form>
                     </div>
                 </div>
