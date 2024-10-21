@@ -38,7 +38,7 @@ export default function Index(){
             <Experience/>
             
             <Projects/>
-            <Clients/>
+            {/* <Clients/> */}
             <Blogs/>
             <GetInTouch/>
             <Footer/>

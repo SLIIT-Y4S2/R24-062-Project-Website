@@ -13,17 +13,19 @@ export default function HeroOne(){
             <div className="container">
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div>
-                        <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Hey! I am <br/>
+                        <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">We provide <br/>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Dennis Scott',
+                                'Personalized',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Website Designer',
+                                'Lectures',
+                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                'Tutorials',
                                 1000,
-                                'Web Developer',
+                                'Labs',
                                 1000,
-                                'UI/UX Designer',
+                                'And Learning Analytics Dashboards',
                                 1000
                             ]}
                             wrapper="span"
@@ -35,8 +37,8 @@ export default function HeroOne(){
                         <p className="text-slate-400 max-w-xl">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                     
                         <div className="mt-6">
-                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link>
-                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
+                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Buy Now</Link>
+                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Request Demo</Link>
                         </div>
                     </div>
 
@@ -53,8 +55,8 @@ export default function HeroOne(){
                         </div>
 
                         <div className="absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <h6 className="font-semibold">Web Designer</h6>
-                            <h6 className="text-sm text-slate-400 mt-1">7+ Years Experience</h6>
+                            <h6 className="font-semibold">As a Lecturer</h6>
+                            <h6 className="text-sm text-slate-400 mt-1">How to teach for large group of studnets</h6>
                         </div>
                     </div>
                 </div>

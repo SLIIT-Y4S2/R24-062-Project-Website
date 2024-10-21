@@ -30,14 +30,16 @@ export default function ProblemAndSolution(){
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-5">
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem & Solution</h3>
+                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem and Gap</h3>
 
-                            <p className="text-slate-400 max-w-xl text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using Content here, content here, making it look like readable English.</p>
-                            <p className="text-slate-400 max-w-xl text-[15px] mt-6">I am a professional web designer. My motive is to build a best web design with my all years of experience.</p>
+                            {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
+                            <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. Incorporating pedagogical frameworks and effectively simulating these using LLMs in an online context remains an area that requires further exploration.</p>
+
+                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project addresses this gap by investigating the effectiveness of incorporating standard pedagogical frameworks together with LLMs in conducting personalized lectures, tutorials, and lab sessions. Additionally, it also aims to develop an effective Learning Analytics Dashboard (LAD) adhering to proper HCLA practices with the use of LLMs to provide a user-driven iterative analytical approach to monitor and visualize the online learning process.</p>
                         
-                            <div className="mt-6">
+                            {/* <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

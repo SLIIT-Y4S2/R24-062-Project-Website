@@ -51,33 +51,33 @@ export const expertiseData = [
 ]
 export const servicesData = [
     {
-        title:'UX / UI Design',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Airplay
+        title:'Lack of Adherence to Standard Teaching Techniques',
+        desc:'Existing systems using LLMs in online learning often fail to align with established pedagogical frameworks, making it difficult to ensure quality and consistency in the learning experience.',
+        Icon: Icon.Bookmark
     },
     {
-        title:'Ios App Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Limited Integration of Pedagogical Frameworks',
+        desc:'There is insufficient exploration of how to effectively integrate and simulate standard teaching methodologies using LLMs in online platforms to deliver personalized learning experiences.',
         Icon: Icon.Aperture
     },
     {
-        title:'Photography',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Need for Personalized Lectures, Tutorials, and Labs',
+        desc:'Current approaches do not adequately personalize lectures, tutorials, or lab sessions based on individual learner needs using LLMs, leaving a gap in tailored learning experiences.',
         Icon: Icon.Camera
     },
     {
-        title:'Graphic Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Development of Learning Analytics Dashboards (LAD)',
+        desc:'An effective LAD that integrates LLM capabilities and adheres to human-centered learning analytics (HCLA) practices is lacking, hindering educators’ ability to track, monitor, and visualize learning progress efficiently.',
         Icon: Icon.Compass
     },
     {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'User-Driven Iterative Analytical Approach',
+        desc:'There is a need for an iterative approach in learning analytics that allows users (educators and learners) to interact and adapt the analysis based on insights provided by LLMs, which is currently not well-explored.',
         Icon: Icon.Settings
     },
     {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Visualization and Monitoring of the Online Learning Process',
+        desc:'Existing systems do not provide comprehensive tools for visualizing and monitoring the learning process in real-time, making it challenging to adjust teaching strategies dynamically.',
         Icon: Icon.Watch
     },
 
@@ -127,13 +127,28 @@ export const project = [
 ]
 export const blogData = [
     {
-        image:"/images/blog/01_giglink.jpg",
-        title:'Giglink: Tailwind CSS NFT Marketplace Template',
+        image:"/images/members/member1.png",
+        title:'D.M.L.D.Jayakody',
         desc:'The phrasal sequence of the is now so that many campaign and benefit'
     },
     {
         image:"/images/blog/01_techwind.jpg",
         title:'Techwind: Tailwind CSS Multipurpose Template',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit'
+    },
+    {
+        image:"/images/blog/01_upwind.jpg",
+        title:'Upwind: Tailwind CSS Landing Page Template',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit'
+    },
+    {
+        image:"/images/blog/01_upwind.jpg",
+        title:'Upwind: Tailwind CSS Landing Page Template',
+        desc:'The phrasal sequence of the is now so that many campaign and benefit'
+    },
+    {
+        image:"/images/blog/01_upwind.jpg",
+        title:'Upwind: Tailwind CSS Landing Page Template',
         desc:'The phrasal sequence of the is now so that many campaign and benefit'
     },
     {
