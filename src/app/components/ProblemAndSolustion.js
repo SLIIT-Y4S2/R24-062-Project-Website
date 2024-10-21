@@ -5,7 +5,7 @@ import Image from "next/image";
 import {expertiseData} from "../Data/data"
 import CountUp from 'react-countup';
 
-export default function AboutUs(){
+export default function ProblemAndSolution(){
     
     return(
         <section className="relative md:py-24 py-16" id="about">
@@ -30,7 +30,7 @@ export default function AboutUs(){
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-5">
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Literature Survey</h3>
+                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem & Solution</h3>
 
                             <p className="text-slate-400 max-w-xl text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using Content here, content here, making it look like readable English.</p>
                             <p className="text-slate-400 max-w-xl text-[15px] mt-6">I am a professional web designer. My motive is to build a best web design with my all years of experience.</p>
