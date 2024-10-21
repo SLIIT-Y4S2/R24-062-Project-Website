@@ -6,7 +6,7 @@ export default function Experience(){
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="experience">
             <div className="container">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Work Experience</h3>
+                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Timeline Milestones</h3>
 
                     <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div>

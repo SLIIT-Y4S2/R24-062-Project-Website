@@ -22,9 +22,9 @@ export default function Navbar(){
         <nav className={`${stickyNavbar ? "is-sticky" : ""} navbar`} id="navbar">
         <div className="container flex flex-wrap items-center justify-between">
             <Link href="/" className="navbar-brand md:me-8" >
-                <p>TEST SOLOSCHOLAR</p>
-                <Image width={96} height={20} src="/images/logo-dark.png" className="inline-block dark:hidden" alt=""/>
-                <Image width={96} height={20} src="/images/logo-light.png" className="hidden dark:inline-block" alt=""/>
+                {/* <p>TEST SOLOSCHOLAR 123</p> */}
+                <Image width={150} height={40} src="/images/soloscholar_logo.png" className="inline-block dark:hidden" alt=""/>
+                <Image width={150} height={40} src="/images/soloscholar_logo_dark.png" className="hidden dark:inline-block" alt=""/>
             </Link>
 
             <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
@@ -59,10 +59,10 @@ export default function Navbar(){
                         <Link1 to="home" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Home</Link1>
                     </li>
                     <li className="nav-item">
-                        <Link1 to="about" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">About Me</Link1>
+                        <Link1 to="about" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Literature</Link1>
                     </li>
                     <li className="nav-item">
-                        <Link1 to="service" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Services</Link1>
+                        <Link1 to="service" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Research Gap</Link1>
                     </li>
                     <li className="nav-item">
                         <Link1 to="experience" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Experience</Link1>

@@ -3,12 +3,12 @@ import React from "react";
 import Link from "next/link";
 import {servicesData} from "../Data/data"
 import * as Unicons from "@iconscout/react-unicons"
-export default function Services(){
+export default function MainObjectives(){
     return(
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="service">
         <div className="container">
             <div className="grid grid-cols-1 pb-8 text-center">
-                <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Gap</h3>
+                <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Main Objectives</h3>
 
                 <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
             </div>

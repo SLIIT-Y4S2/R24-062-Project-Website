@@ -7,7 +7,7 @@ export default function AddBanner(){
             <div className="absolute inset-0 bg-slate-900/70"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 text-center">
-                    <h3 className="mb-4 md:text-2xl text-xl text-white font-semibold">I Am Available For Freelancer Projects.</h3>
+                    <h3 className="mb-4 md:text-2xl text-xl text-white font-semibold">Technologies Used</h3>
 
                     <p className="text-white/80 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 
