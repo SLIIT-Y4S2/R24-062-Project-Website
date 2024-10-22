@@ -32,16 +32,8 @@ export default function Navbar(){
                 <ul className="list-none menu-social mb-0">
                     <li className="inline-flex">
                         <Link href="" className="ms-1">
-                            <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilDribbble width={16}/></span></span>
-                            <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilDribbble width={16}/></span></span>
-                        </Link>
-                        <Link href="" className="ms-1">
-                            <span className="login-btn-primary "><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilBehance width={16}/></span></span>
-                            <span className="login-btn-light "><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilBehance width={16}/></span></span>
-                        </Link>
-                        <Link href="" className="ms-1">
-                            <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilInstagram width={16}/></span></span>
-                            <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilInstagram width={16}/></span></span>
+                            <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilEnvelope width={16}/></span></span>
+                            <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilEnvelope width={16}/></span></span>
                         </Link>
                     </li>
                 </ul>
@@ -65,7 +57,7 @@ export default function Navbar(){
                         <Link1 to="service" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Research Gap</Link1>
                     </li>
                     <li className="nav-item">
-                        <Link1 to="experience" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Experience</Link1>
+                        <Link1 to="experience" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Timeline</Link1>
                     </li>
                     <li className="nav-item">
                         <Link1 to="project" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Projects</Link1>
@@ -74,7 +66,7 @@ export default function Navbar(){
                         <Link1 to="blog" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Blogs</Link1>
                     </li>
                     <li className="nav-item">
-                        <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Contact Me</Link1>
+                        <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">About Us</Link1>
                     </li>
                 </ul>
             </div>
