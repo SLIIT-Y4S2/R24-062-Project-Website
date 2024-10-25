@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-export default function Experience() {
+export default function Timeline() {
   return (
     <section
       className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
-      id="experience"
+      id="timeline"
     >
       <div className="container">
         <div className="grid grid-cols-1 pb-8 text-center">
@@ -15,7 +15,7 @@ export default function Experience() {
 
           <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
             Obviously I am a Web Designer. Web Developer with over 7 years of
-            experience. Experienced with all stages of the development.
+            timeline. Timelined with all stages of the development.
           </p>
         </div>
 
@@ -38,8 +38,8 @@ export default function Experience() {
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
                     During this phase, we carefully assessed and selected a
                     research topic that held significant relevance to our
-                    project&apos;s goals, ensuring that our research direction was
-                    well-founded.
+                    project&apos;s goals, ensuring that our research direction
+                    was well-founded.
                   </p>
                   {/* <progress className="w-full mt-3" value="10" max="100"></progress> */}
                   <div
@@ -79,7 +79,6 @@ export default function Experience() {
                     project, serving as a roadmap for the entire research
                     journey.
                   </p>
-
 
                   <div
                     className="w-full"
@@ -221,10 +220,10 @@ export default function Experience() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">Document</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    During this phase, we updated the project&apos;s status in our
-                    second status document, highlighting any changes in the
-                    project&apos;s status and findings that had occurred since the
-                    initial status document.
+                    During this phase, we updated the project&apos;s status in
+                    our second status document, highlighting any changes in the
+                    project&apos;s status and findings that had occurred since
+                    the initial status document.
                   </p>
                   <div
                     className="w-full"
