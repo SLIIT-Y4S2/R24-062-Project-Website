@@ -49,19 +49,21 @@ const TeamMemberCard = ({ member }) => {
         <p className="text-slate-400 mt-2 text-[15px]">{member.department}</p>
 
         <div className="mt-5 flex gap-x-4">
-          <Link
+          <a
             href={member.linkedin}
+            target="_blank"
+            rel="noreferrer"
             className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1"
           >
             <Unicons.UilLinkedin />
-          </Link>
+          </a>
           <span style={{ width: "15px" }}></span>
-          <Link
+          <a
             href={`mailto:${member.email}`}
             className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1"
           >
             <Unicons.UilFastMail width={30} height={30} />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
