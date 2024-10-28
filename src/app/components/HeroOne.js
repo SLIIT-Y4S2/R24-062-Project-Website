@@ -49,14 +49,14 @@ export default function HeroOne(){
                             <span className="text-3xl font-medium mb-0"><span className="counter-value font-bold" data-target="125"> <CountUp
                                             start={7}
                                             className="counter-value"
-                                            end={180}
-                                            duration={2.75} /></span>+</span>
-                            <h6 className="text-sm text-slate-400 mt-1">Project Completed</h6>
+                                            end={30}
+                                            duration={2.75} /></span>-</span>
+                            <h6 className="text-sm text-slate-400 mt-1">Low marks for my practical test.</h6>
                         </div>
 
                         <div className="absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <h6 className="font-semibold">As a Lecturer</h6>
-                            <h6 className="text-sm text-slate-400 mt-1">How to teach for large group of studnets</h6>
+                            <h6 className="font-semibold">Student</h6>
+                            <h6 className="text-sm text-slate-400 mt-1">dificult to understand these concepts. Need personalized platform</h6>
                         </div>
                     </div>
                 </div>

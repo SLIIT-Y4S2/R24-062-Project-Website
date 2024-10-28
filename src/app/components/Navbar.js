@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* <!-- Navbar Button --> */}
           <ul className="list-none menu-social mb-0">
             <li className="inline-flex">
-              <Link href="" className="ms-1">
+              <Link1 to="contact" className="ms-1">
                 <span className="login-btn-primary">
                   <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
                     <Unicons.UilEnvelope width={16} />
@@ -55,7 +55,7 @@ export default function Navbar() {
                     <Unicons.UilEnvelope width={16} />
                   </span>
                 </span>
-              </Link>
+              </Link1>
             </li>
           </ul>
           {/* <!-- Navbar Collapse Manu Button --> */}
@@ -98,6 +98,18 @@ export default function Navbar() {
                 duration={500}
                 className="nav-link"
               >
+                Project Scope
+              </Link1>
+            </li>
+            {/* <li className="nav-item">
+              <Link1
+                to="about"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
                 Literature
               </Link1>
             </li>
@@ -124,7 +136,7 @@ export default function Navbar() {
               >
                 Technologies
               </Link1>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link1
                 to="timeline"
@@ -161,7 +173,7 @@ export default function Navbar() {
                 Team
               </Link1>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link1
                 to="contact"
                 activeClass="active"
@@ -172,7 +184,7 @@ export default function Navbar() {
               >
                 Contact Us
               </Link1>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
