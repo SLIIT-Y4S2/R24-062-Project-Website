@@ -30,12 +30,15 @@ export default function ProblemAndSolution(){
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-5">
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem and Gap</h3>
+                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem</h3>
 
                             {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
                             <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. Incorporating pedagogical frameworks and effectively simulating these using LLMs in an online context remains an area that requires further exploration.</p>
 
-                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project addresses this gap by investigating the effectiveness of incorporating standard pedagogical frameworks together with LLMs in conducting personalized lectures, tutorials, and lab sessions. Additionally, it also aims to develop an effective Learning Analytics Dashboard (LAD) adhering to proper HCLA practices with the use of LLMs to provide a user-driven iterative analytical approach to monitor and visualize the online learning process.</p>
+                            
+
+                            <h1>Proposed Solution</h1>
+                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project focuses on developing a personalized online learning platform, SoloScholar, for undergraduates in HEIs by considering three learning levels: beginner, intermediate, and advanced. It takes into account the three different teaching roles of a HEI as lecturer, tutor, and lab instructor and the associated pedagogical frameworks. These theoretical frameworks lay the foundation for the platform’s design and development in simulating the three teaching roles. SoloScholar leverages LLMs to simulate the standard teaching and learning techniques based on the pedagogical frameworks in the design and delivery of personalized educational content and student assessment. Additionally, it also incorporates a 3D virtual avatar to enhance student engagement to provide a more interactive learning environment along with a dashboard to monitor this online learning approach. </p>
                         
                             {/* <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
