@@ -53,7 +53,7 @@ export default function GetInTouch(){
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Get In Touch !</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">For further queries please reach us. We are here to help you. Hope this project helped you in some manner. Thank you! - Team SoloScholar</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
@@ -94,7 +94,7 @@ export default function GetInTouch(){
 
                 <div className="lg:col-span-4">
                     <div className="lg:ms-8">
-                        <div className="flex">
+                        {/* <div className="flex">
                             <div className="icons text-center mx-auto">
                                 <Unicons.UilPhone className=" block rounded text-2xl dark:text-white mb-0"/>
                             </div>
@@ -103,7 +103,7 @@ export default function GetInTouch(){
                                 <h5 className="text-[17px] dark:text-white mb-2 font-medium">Phone</h5>
                                 <Link href="tel:+152534-468-854" className="text-slate-400 text-[15px]">+152 534-468-854</Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="flex mt-4">
                             <div className="icons text-center mx-auto">
@@ -112,7 +112,7 @@ export default function GetInTouch(){
 
                             <div className="flex-1 ms-6">
                                 <h5 className="text-[17px] dark:text-white mb-2 font-medium">Email</h5>
-                                <Link href="mailto:contact@example.com" className="text-slate-400 text-[15px]">contact@example.com</Link>
+                                <Link href="mailto:soloscholar.ai@gmail.com" className="text-slate-400 text-[15px]">soloscholar.ai@gmail.com</Link>
                             </div>
                         </div>
 
@@ -123,7 +123,7 @@ export default function GetInTouch(){
 
                             <div className="flex-1 ms-6">
                                 <h5 className="text-[17px] dark:text-white mb-2 font-medium">Location</h5>
-                                <p className="text-slate-400 text-[15px] mb-2">C/54 Northwest Freeway, Suite 558, Houston, USA 485</p>
+                                <p className="text-slate-400 text-[15px] mb-2">Colombo, Sri Lanka</p>
                             </div>
                         </div>
                     </div>

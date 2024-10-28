@@ -81,6 +81,31 @@ export const servicesData = [
     Icon: Icon.Watch,
   },
 ];
+
+
+export const mainObjectiveData = [
+  {
+    title: "Personalized Lecture Session",
+    desc: "Adopt and simulate the Bridge-in, Objective, Pre-assessment, Participatory learning, Post-assessment, and Summary (BOPPPS) ​[10]​, ​[11]​ pedagogical framework in generating and conducting personalized lecture sessions with the incorporation of a 3D virtual avatar.",
+    Icon: Icon.Bookmark,
+  },
+  {
+    title: "Personalized Tutorial Session and Evaluation",
+    desc: "Adopt and simulate the Questioning and Understanding to Improve Learning and Thinking (QUILT) ​[12]​ pedagogical framework in generating and conducting personalized tutorial sessions and student answer evaluations. ",
+    Icon: Icon.Aperture,
+  },
+  {
+    title: "Personalized Lab Session and Evaluation",
+    desc: "Adopt and simulate the more Authentic, Reflective, and Collaborative (mARC) pedagogical framework in generating and conducting personalized self-guided lab sessions and student answer evaluations.",
+    Icon: Icon.Camera,
+  },
+  {
+    title: "Dynamic Learning Analytics Dashboard",
+    desc: "A learning analytics dashboard that allows the module instructor in charge to monitor and analyze this online learning approach. Aids in generating custom analytical indicators and interactive visualizations to cater to unique analysis goals to gain insights into the learning process. ",
+    Icon: Icon.Compass,
+  },
+];
+
 export const project = [
   {
     image: "/images/works/1.jpg",
@@ -238,7 +263,7 @@ export const documentsData = {
       id: 1,
       title: "Topic Assessment",
       type: "Group",
-      submitDate: "2021/02/25",
+      submitDate: "2024 January",
       imagePath: "/images/works/doc.png",
       pdfPath: "/images/members/12.pdf",
     },
@@ -246,7 +271,7 @@ export const documentsData = {
       id: 2,
       title: "Project Proposal",
       type: "Group",
-      submitDate: "2021/02/25",
+      submitDate: "2024 February",
       imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/drive/folders/12Ztl6aCFCvDq6ee4r3eF4271gVAW9-05?usp=sharing",
@@ -255,7 +280,7 @@ export const documentsData = {
       id: 3,
       title: "Status Document I",
       type: "Individual",
-      submitDate: "2021/02/25",
+      submitDate: "2024 May 06",
       imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/drive/folders/1BRiLOhw-tCJU2yZwgRgyPVDVDhLj4Vo9?usp=sharing",
@@ -264,7 +289,7 @@ export const documentsData = {
       id: 4,
       title: "Status Document II",
       type: "Individual",
-      submitDate: "2021/02/25",
+      submitDate: "2024 September 11",
       imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/drive/folders/1BRzAaDwwzg3KvmT3Gj64a6Ly7X1FOdzV?usp=sharing",
@@ -273,7 +298,7 @@ export const documentsData = {
       id: 5,
       title: "Research Paper",
       type: "Individual",
-      submitDate: "2021/02/25",
+      submitDate: "2024 June 14",
       imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/file/d/1eysc5y4FlxXso-6bR4Pvs7veu8AIjysA/view?usp=sharing",
@@ -282,7 +307,7 @@ export const documentsData = {
       id: 7,
       title: "Individual Final Report",
       type: "Individual",
-      submitDate: "2021/02/25",
+      submitDate: "2024 August 23",
       imagePath: "/images/works/doc_2.png",
       pdfPath:
         "https://drive.google.com/drive/folders/1zn7B2hwq8yxFXRHjnn2CUJFELnVAi7RM?usp=sharing",
@@ -291,7 +316,16 @@ export const documentsData = {
       id: 8,
       title: "Group Final Report",
       type: "Group",
-      submitDate: "2021/02/25",
+      submitDate: "2024 August 23",
+      imagePath: "/images/works/doc_2.png",
+      pdfPath:
+        "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
+    },
+    {
+      id: 8,
+      title: "Loog Books",
+      type: "Individual",
+      submitDate: "2024 November 20",
       imagePath: "/images/works/doc_2.png",
       pdfPath:
         "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
@@ -302,7 +336,7 @@ export const documentsData = {
       id: 1,
       title: "Project Proposal",
       type: "Group",
-      submitDate: "2023/07/29",
+      submitDate: "2024 February",
       imagePath: "/images/works/doc_3.png",
       pdfPath:
         "https://docs.google.com/presentation/d/1SlLUv-lFcHNd3G417HKSem21lDar5KoB/edit?usp=sharing&ouid=101231789596692966267&rtpof=true&sd=true",
@@ -311,7 +345,7 @@ export const documentsData = {
       id: 2,
       title: "Progress Presentation I",
       type: "Group",
-      submitDate: "2023/07/29",
+      submitDate: "2024 May 7",
       imagePath: "/images/works/doc_3.png",
       pdfPath:
         "https://docs.google.com/presentation/d/1PVb3tLTaszeLvIKK_4kGygnnAcMTMvCJ/edit?usp=sharing&ouid=101231789596692966267&rtpof=true&sd=true",
@@ -320,7 +354,7 @@ export const documentsData = {
       id: 3,
       title: "Progress Presentation II",
       type: "Group",
-      submitDate: "2023/07/29",
+      submitDate: "2024 September 10",
       imagePath: "/images/works/doc_3.png",
       pdfPath:
         "https://docs.google.com/presentation/d/1yITC6dUeGKfjbL3A3dO_SFz0MK62CzdF/edit?usp=sharing&ouid=101231789596692966267&rtpof=true&sd=true",
@@ -329,7 +363,7 @@ export const documentsData = {
       id: 4,
       title: "Final Presentation",
       type: "Group",
-      submitDate: "2023/07/29",
+      submitDate: "2024 October 29",
       imagePath: "/images/works/doc_3.png",
       pdfPath: "",
     },
@@ -340,23 +374,23 @@ export const documentsData = {
 export const teamData = [
   {
     id: 1,
-    name: "Prasanna S. Haddela",
+    name: "Dr. Prasanna S. Haddela",
     image: "/images/members/member5.png",
     role: "Supervisor",
-    position: null,
+    position: "Senior Lecturer",
     institution: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
+    department: "Information Technology",
     linkedin: "https://lk.linkedin.com/in/prasanna-s-haddela-2751037",
     email: "prasanna.s@sliit.lk",
   },
   {
     id: 2,
-    name: "Ms. Malithi Nawarathne",
-    image: "/images/members/member6.png",
+    name: "Nawarathne U.M.M.P.K",
+    image: "/images/members/member8.png",
     role: "Co-Supervisor",
-    position: "Undergraduate",
+    position: "Assistant Lecturer",
     institution: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
+    department: "Information Technology",
     linkedin: "https://www.linkedin.com/in/malithi-nawarathne-2a443b18b/",
     email: "malithi.n@sliit.lk",
   },
@@ -380,7 +414,7 @@ export const teamData = [
     institution: "Sri Lanka Institute of Information Technology",
     department: "Software Engineering",
     linkedin: "https://www.linkedin.com/in/dinethjayakody/",
-    email: "",
+    email: "dinethjayakody@gmail.com",
   },
   {
     id: 5,

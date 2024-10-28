@@ -10,7 +10,7 @@ export default function Services(){
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Gap</h3>
 
-                {/* <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p> */}
+                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Following areas are the research gaps found in most of the recent researches.</p>
             </div>
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
@@ -18,11 +18,11 @@ export default function Services(){
                 const Icon = item.Icon
                 return(
                     <div className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900" key={index}>
-                    <Icon className="h-10 w-10 stroke-1 text-amber-500"/>
+                    {/* <Icon className="h-10 w-10 stroke-1 text-amber-500"/> */}
 
-                    <div className="content mt-7">
+                    <div className="content mt-3">
                         <Link href="" className="title h5 text-[17px] font-medium hover:text-amber-500">{item.title}</Link>
-                        <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
+                        <p className="text-slate-400 mt-5 text-[15px]">{item.desc}</p>
                         
                         {/* <div className="mt-5">
                             <Link href="" className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1">Read More <Unicons.UilArrowRight width={16}/></Link>

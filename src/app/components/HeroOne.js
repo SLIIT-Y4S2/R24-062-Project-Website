@@ -34,7 +34,7 @@ export default function HeroOne(){
                             repeat={Infinity}
                         />
                         <span className="typewrite text-amber-500" data-period="2000" data-type='[ "Dennis Scott", "Website Designer", "Web Developer", "UI/UX Designer" ]'> <span className="wrap"></span> </span></h4>
-                        <p className="text-slate-400 max-w-xl">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                        <p className="text-slate-400 max-w-xl">SoloScholar is an AI-powered web application aimed at delivering personalized learning and timely feedback for undergraduate students in higher education institutes.</p>
                     
                         <div className="mt-6">
                             <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Buy Now</Link>
@@ -43,7 +43,7 @@ export default function HeroOne(){
                     </div>
 
                     <div className="relative">
-                        <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  src="/images/hero/2.png" alt=""/>
+                        <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  src="/images/hero/241.png" alt=""/>
 
                         <div className="absolute lg:bottom-20 md:bottom-10 bottom-2 ltr:md:-left-5 ltr:left-2 rtl:md:-right-5 rtl:right-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                             <span className="text-3xl font-medium mb-0"><span className="counter-value font-bold" data-target="125"> <CountUp

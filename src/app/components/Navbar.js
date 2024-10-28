@@ -170,7 +170,7 @@ export default function Navbar() {
                 duration={500}
                 className="nav-link"
               >
-                About Us
+                Contact Us
               </Link1>
             </li>
           </ul>

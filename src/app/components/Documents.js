@@ -75,8 +75,7 @@ export default function Documents() {
             Documents
           </h3>
           <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-            All the documents and presentations related to the project are
-            available here.
+            All the documents and presentations related to the project are available here.
           </p>
         </div>
 
