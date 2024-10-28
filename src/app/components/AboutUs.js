@@ -74,18 +74,23 @@ export default function AboutUs() {
                 uses LLMs and teaching frameworks like Bloom&apos;s Taxonomy to
                 generate high-quality educational questions. Moreover, Matelsky
                 et al. [8] proposed a solution that uses LLMs to deliver fast
-                and customized feedback. Apart from these, the adoption of
+                and customized feedback.
+              </p>
+              <p className="text-slate-400 max-w-xl text-[15px] mt-6">
+                Apart from these, the adoption of
                 Learning Analytics (LA) in Higher Education Institutes (HEIs)
                 has allowed for gaining insights into learning behaviors and
                 patterns and making data-driven decisions accordingly [9].
               </p>
               <p className="text-slate-400 max-w-xl text-[15px] mt-6">
-                The literature review aims to provide a comprehensive
-                understanding of the current state of personalized learning,
+                This literature review highlights the current state of personalized learning,
                 learning styles, effective teaching, and the application of AI
-                and LLMs in education. The review will also explore the
+                and LLMs in education. Thus, a novel fully-fledged solution, combining the 
+                aspects of teaching, learning and learning analytics has a huge potential in enhancing the online teaching and 
+                learning domain.
+                {/* The review will also explore the
                 potential of LLM4Edu in enhancing personalized learning and
-                teaching practices in online learning environments.
+                teaching practices in online learning environments.  */}
               </p>
 
               {/* <div className="mt-6">
@@ -147,12 +152,19 @@ export default function AboutUs() {
                 [9] B. T. Wong and K. C. Li, &quot;A review of learning
                 analytics intervention in higher education (2011–2018),&quot;
                 Journal of Computers in Education, vol. 7, pp. 7-28, 2019.
-                <br />
+                <br/>
                 [10] S. Nundy, A. Kakar and Z. A. Bhutta, How to Practice
-                Academic Medicine and Publish from Developing Countries? : A
-                Practical Guide, Singapore: Springer Singapore, Imprint
-                Springer, 2022, pp. 405-413.
-                <br />
+                Academic Medicine and Publish from Developing Countries? 
+                : A Practical Guide, Singapore: Springer Singapore, Imprint
+                 Springer, 2022, pp. 405-413
+                 <br/>
+                 [11] J. Zhu, H. Yuan, Q. Zhang, P.-H. Huang, Y. Wang, S. Duan, M. Lei, E. G. Lim and P. Song, 
+                 &quot;The impact of short videos on student performance in an online-flipped college engineering course,&quot;
+                 Humanities & social sciences communications, vol. 9, no. 1, 22 September 2022.
+                 <br/>
+                 [12] J. Craig and L. Cairo, &quot;Assessing the Relationship Between Questioning and Understanding to
+                Improve Learning and Thinking (QUILT) and Student Achievement in Mathematics: A Pilot Study,&quot;
+                Appalachia Educational Laboratory at Edvantia, 2005.
               </p>
 
               {/* <div className="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
