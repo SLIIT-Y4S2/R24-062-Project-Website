@@ -60,7 +60,6 @@ export default function GetInTouch(){
                 <div className="lg:col-span-8">
                     <div className="p-6 rounded-md shadow bg-white dark:bg-slate-900">
                         <form onSubmit={async (e) => {
-                            console.log("PRESSED");
                             e.preventDefault();
                             setIsDisabled(true);
                             await handleSubmit({name, email, subject, message});

@@ -57,29 +57,30 @@ export const servicesData = [
   },
   {
     title: "Limited Integration of Pedagogical Frameworks",
-    desc: "There is insufficient exploration of how to effectively integrate and simulate standard teaching methodologies using LLMs in online platforms to deliver personalized learning experiences.",
+    desc: "There is insufficient exploration of how to effectively integrate and simulate standard teaching frameworks using LLMs in online learning platforms to deliver personalized learning experiences.",
     Icon: Icon.Aperture,
   },
+  // {
+  //   title: "Need for Personalized Lectures, Tutorials, and Labs",
+  //   desc: "Current approaches do not adequately personalize lectures, tutorials, or lab sessions based on individual learner needs using LLMs, leaving a gap in tailored learning experiences.",
+  //   Icon: Icon.Camera,
+  // },
   {
-    title: "Need for Personalized Lectures, Tutorials, and Labs",
-    desc: "Current approaches do not adequately personalize lectures, tutorials, or lab sessions based on individual learner needs using LLMs, leaving a gap in tailored learning experiences.",
-    Icon: Icon.Camera,
-  },
-  {
-    title: "Development of Learning Analytics Dashboards (LAD)",
-    desc: "An effective LAD that integrates LLM capabilities and adheres to human-centered learning analytics (HCLA) practices is lacking, hindering educators’ ability to track, monitor, and visualize learning progress efficiently.",
+    title: "Human-Centered Learning Analytics (HCLA)",
+    //desc: "An effective LAD that integrates LLM capabilities and adheres to human-centered learning analytics (HCLA) practices is lacking, hindering educators’ ability to track, monitor, and visualize learning progress efficiently.",
+    desc: "An effective Learning Analytics Dashboard (LAD) aligned with the principles of HCLA is lacking, limiting the educator's ability to efficiently track and visualize the learning progress.",
     Icon: Icon.Compass,
   },
-  {
-    title: "User-Driven Iterative Analytical Approach",
-    desc: "There is a need for an iterative approach in learning analytics that allows users (educators and learners) to interact and adapt the analysis based on insights provided by LLMs, which is currently not well-explored.",
-    Icon: Icon.Settings,
-  },
-  {
-    title: "Visualization and Monitoring of the Online Learning Process",
-    desc: "Existing systems do not provide comprehensive tools for visualizing and monitoring the learning process in real-time, making it challenging to adjust teaching strategies dynamically.",
-    Icon: Icon.Watch,
-  },
+  // {
+  //   title: "User-Driven Iterative Analytical Approach",
+  //   desc: "There is a need for an iterative approach in learning analytics that allows users (educators and learners) to interact and adapt the analysis based on insights provided by LLMs, which is currently not well-explored.",
+  //   Icon: Icon.Settings,
+  // },
+  // {
+  //   title: "Visualization and Monitoring of the Online Learning Process",
+  //   desc: "Existing systems do not provide comprehensive tools for visualizing and monitoring the learning process in real-time, making it challenging to adjust teaching strategies dynamically.",
+  //   Icon: Icon.Watch,
+  // },
 ];
 
 
@@ -101,7 +102,7 @@ export const mainObjectiveData = [
   },
   {
     title: "Dynamic Learning Analytics Dashboard",
-    desc: "A learning analytics dashboard that allows the module instructor in charge to monitor and analyze this online learning approach. Aids in generating custom analytical indicators and interactive visualizations to cater to unique analysis goals to gain insights into the learning process. ",
+    desc: "Adopt the Learning Analytics and Visual Analytics (LAVA) framework in desigining and developing a human-centered LAD that allows the module instructor in charge to monitor and analyze this online learning approach.",
     Icon: Icon.Compass,
   },
 ];
@@ -377,7 +378,7 @@ export const teamData = [
     name: "Dr. Prasanna S. Haddela",
     image: "/images/members/member5.png",
     role: "Supervisor",
-    position: "Senior Lecturer",
+    position: "Head of Graduate Studies | Senior Lecturer",
     institution: "Sri Lanka Institute of Information Technology",
     department: "Information Technology",
     linkedin: "https://lk.linkedin.com/in/prasanna-s-haddela-2751037",

@@ -33,10 +33,10 @@ export default function ProblemAndSolution(){
                             <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem</h3>
 
                             {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
-                            <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. Incorporating pedagogical frameworks and effectively simulating these using LLMs in an online context remains an area that requires further exploration.</p>
+                            <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. The combination of simulating pedagogical frameworks with LLMs, and monitoring the learning approach via learning analytics in an online context, remains an area that requires further exploration.</p>
 
                             <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Proposed Solution</h3>
-                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project focuses on developing a personalized online learning platform, SoloScholar, for undergraduates in HEIs by considering three learning levels: beginner, intermediate, and advanced. It takes into account the three different teaching roles of a HEI as lecturer, tutor, and lab instructor and the associated pedagogical frameworks. These theoretical frameworks lay the foundation for the platform’s design and development in simulating the three teaching roles. SoloScholar leverages LLMs to simulate the standard teaching and learning techniques based on the pedagogical frameworks in the design and delivery of personalized educational content and student assessment. Additionally, it also incorporates a 3D virtual avatar to enhance student engagement to provide a more interactive learning environment along with a dashboard to monitor this online learning approach. </p>
+                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project focuses on developing a novel personalized online learning platform, <b>SoloScholar</b>, for undergraduates in HEIs by considering three learning levels: beginner, intermediate, and advanced. The platform takes into account the three different teaching roles of a HEI as lecturer, tutor, and lab instructor and the associated pedagogical frameworks. These theoretical frameworks lay the foundation for the platform’s design and development in simulating these three teaching roles. <b>SoloScholar</b> leverages LLMs to simulate the standard teaching and learning techniques based on the pedagogical frameworks in the design and delivery of personalized educational content and student assessment. Additionally, it also incorporates a 3D virtual avatar to provide a more interactive learning environment along with an educator-focused learning analytics dashboard to monitor this online learning approach.</p>
                         
                             {/* <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
@@ -45,7 +45,9 @@ export default function ProblemAndSolution(){
                     </div>
 
                     <div className="lg:col-span-7 lg:px-8">
-                        <iframe width="100%" height="400" src="videos/SoloScholar.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video width="750" height="500" controls>
+                            <source src="https://firebasestorage.googleapis.com/v0/b/betterhelpbackend.appspot.com/o/SoloScholar.mp4?alt=media&token=2c7ef722-2f1f-4997-90d4-bed749c11e0d" type="video/mp4" />
+                        </video>
                         </div>
                 </div>
             </div>
