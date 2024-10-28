@@ -28,16 +28,14 @@ export default function ProblemAndSolution(){
                         </div>
                     </div> */}
 
-                    <div className="lg:col-span-7">
+                    <div className="lg:col-span-5">
                         <div className="lg:ms-5">
                             <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem</h3>
 
                             {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
                             <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. Incorporating pedagogical frameworks and effectively simulating these using LLMs in an online context remains an area that requires further exploration.</p>
 
-                            
-
-                            <h1>Proposed Solution</h1>
+                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Proposed Solution</h3>
                             <p className="text-slate-400 max-w-l text-[15px] mt-6">This project focuses on developing a personalized online learning platform, SoloScholar, for undergraduates in HEIs by considering three learning levels: beginner, intermediate, and advanced. It takes into account the three different teaching roles of a HEI as lecturer, tutor, and lab instructor and the associated pedagogical frameworks. These theoretical frameworks lay the foundation for the platform’s design and development in simulating the three teaching roles. SoloScholar leverages LLMs to simulate the standard teaching and learning techniques based on the pedagogical frameworks in the design and delivery of personalized educational content and student assessment. Additionally, it also incorporates a 3D virtual avatar to enhance student engagement to provide a more interactive learning environment along with a dashboard to monitor this online learning approach. </p>
                         
                             {/* <div className="mt-6">
@@ -45,6 +43,10 @@ export default function ProblemAndSolution(){
                             </div> */}
                         </div>
                     </div>
+
+                    <div className="lg:col-span-7 lg:px-8">
+                        <iframe width="100%" height="400" src="videos/SoloScholar.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                 </div>
             </div>
 

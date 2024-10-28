@@ -321,15 +321,15 @@ export const documentsData = {
       pdfPath:
         "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
     },
-    {
-      id: 8,
-      title: "Loog Books",
-      type: "Individual",
-      submitDate: "2024 November 20",
-      imagePath: "/images/works/doc_2.png",
-      pdfPath:
-        "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
-    },
+    // {
+    //   id: 8,
+    //   title: "Loog Books",
+    //   type: "Individual",
+    //   submitDate: "2024 November 20",
+    //   imagePath: "/images/works/doc_2.png",
+    //   pdfPath:
+    //     "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
+    // },
   ],
   presentations: [
     {

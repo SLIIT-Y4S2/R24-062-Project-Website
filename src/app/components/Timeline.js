@@ -112,9 +112,7 @@ export default function Timeline() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">Viva</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    During this phase, we presented an initial overview of our
-                    research progress to stakeholders, providing a glimpse of
-                    our project&apos;s development and key findings.
+                  Progress Presentation I , covers the 50% completion stage of the project, highlighting any gaps or inconsistencies in the design or requirements.
                   </p>
                   <div
                     className="w-full"
