@@ -4,6 +4,7 @@ import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
 import Image from "next/image";
+import { Link as Link1 } from "react-scroll";
 
 export default function HeroOne() {
   return (
@@ -55,18 +56,24 @@ export default function HeroOne() {
               </p>
 
               <div className="mt-6">
-                <Link
-                  href="#contact"
+                <Link1
+                  to="contact"
                   className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md"
+                  style={{
+                    cursor: "pointer",
+                  }}
                 >
                   Buy Now
-                </Link>
-                <Link
-                  href="#contact"
+                </Link1>
+                <Link1
+                  to="contact"
                   className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1"
+                  style={{
+                    cursor: "pointer",
+                  }}
                 >
                   Request Demo
-                </Link>
+                </Link1>
               </div>
             </div>
 
@@ -108,9 +115,14 @@ export default function HeroOne() {
       </section>
       <div className="relative">
         <div className="absolute block w-full h-auto bottom-[25px] z-1 left-0">
-          <Link href="#project-scope">
+          <Link1
+            to="project-scope"
+            style={{
+              cursor: "pointer",
+            }}
+          >
             <i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i>
-          </Link>
+          </Link1>
         </div>
       </div>
     </>
