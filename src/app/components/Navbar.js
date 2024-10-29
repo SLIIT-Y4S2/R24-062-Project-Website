@@ -91,7 +91,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link1
-                to="about"
+                to="project-scope"
                 activeClass="active"
                 spy={true}
                 smooth={true}
