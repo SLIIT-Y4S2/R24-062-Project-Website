@@ -7,14 +7,13 @@ import Methodology from "./components/Methodology";
 const Navbar = dynamic(() => import("./components/Navbar"));
 const HeroOne = dynamic(() => import("./components/HeroOne"));
 const AboutUs = dynamic(() => import("./components/AboutUs"));
-const Services = dynamic(() => import("./components/Service"));
+const ResearchGap = dynamic(() => import("./components/ResearchGap"));
 const ProblemAndSolution = dynamic(() =>
   import("./components/ProblemAndSolustion")
 );
-const CTABanner = dynamic(() => import("./components/Technologies"));
+const Technologies = dynamic(() => import("./components/Technologies"));
 const Timeline = dynamic(() => import("./components/Timeline"));
 const Documents = dynamic(() => import("./components/Documents"));
-const Clients = dynamic(() => import("./components/Clients"));
 const Team = dynamic(() => import("./components/Team"));
 const GetInTouch = dynamic(() => import("./components/GetInTouch"));
 const Footer = dynamic(() => import("./components/Footer"));
@@ -32,15 +31,13 @@ export default function Index() {
       <Navbar />
       <HeroOne />
       <AboutUs />
-      <Services />
+      <ResearchGap />
       <ProblemAndSolution />
-      <CTABanner />
+      <Technologies />
       <MainObjectives />
       <Methodology />
       <Timeline />
-
       <Documents />
-      {/* <Clients/> */}
       <Team />
       <GetInTouch />
       <Footer />

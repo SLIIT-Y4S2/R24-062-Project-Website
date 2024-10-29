@@ -1,46 +1,65 @@
-'use client'
+"use client";
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { expertiseData } from "../Data/data"
-import CountUp from 'react-countup';
 
 export default function Methodology() {
+  return (
+    <section className="relative md:py-24 py-16" id="project-scope">
+      <div className="container">
+        <div className="lg:col-span-5 lg:px-8 mb-5">
+          <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
+            Methodology
+          </h3>
 
-    return (
-        <section className="relative md:py-24 py-16" id="about">
-            <div className="container">
-                <div className="lg:col-span-5 lg:px-8 mb-5">
+          <p className="text-slate-400 text-[15px]">
+            The foundation of this project was based on a strong theoretical
+            background mainly related to teaching and learning techniques, and
+            learning analytics. We adopted a systematic approach by starting
+            with an extensive search for scholarly work to gather, evaluate, and
+            synthesize relevant literature on the subject.
+          </p>
+          <p className="text-slate-400 text-[15px] mt-6">
+            On the theoretical aspect, the cognitive levels of Bloom’s Taxonomy
+            were utilized to classify the three learning levels as beginner,
+            intermediate, and advanced. Afterward, the teaching and learning
+            frameworks identified from past scholarly work were analyzed to
+            establish a theoretical mapping between cognitive levels, learning
+            levels, and lesson learning outcomes.
+          </p>
+          <p className="text-slate-400 text-[15px] mt-6">
+            On the technical aspect, the established theoretical mappings were
+            used to formulate the necessary prompt templates. This also included
+            leveraging the technique of Retrieval Augmented Generation (RAG) to
+            utilize contextually relevant information from a knowledge base.
+            Eventually, the powerful combination of the GPT-4o-mini model and
+            LangChain framework was used for the synthesis and technical
+            simulation of these teaching-learning frameworks. Similarly, an
+            educator-focused Learning Analytics Dashboard (LAD) was also
+            developed by implementing the stages of the LAVA framework
+            identified during the literature survey. This is also equipped with
+            the ability to generate custom visualizations to cater to varying
+            analytical goals of users, thereby serving as powerful tool for
+            observing and analyzing the learning approach.{" "}
+          </p>
 
-
-
-
-                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Methodology</h3>
-
-                    <p className="text-slate-400 text-[15px]">The foundation of this project was based on a strong theoretical background mainly related to teaching and learning techniques, and learning analytics. We adopted a systematic approach by starting with an extensive search for scholarly work to gather, evaluate, and synthesize relevant literature on the subject.</p>
-                    <p className="text-slate-400 text-[15px] mt-6">On the theoretical aspect, the cognitive levels of Bloom’s Taxonomy were utilized to classify the three learning levels as beginner, intermediate, and advanced. Afterward, the teaching and learning frameworks identified from past scholarly work were analyzed to establish a theoretical mapping between cognitive levels, learning levels, and lesson learning outcomes.
-                    </p>
-                    <p className="text-slate-400 text-[15px] mt-6">On the technical aspect, the established theoretical mappings were used to formulate the necessary prompt templates. This also included leveraging the technique of Retrieval Augmented Generation (RAG) to utilize contextually relevant information from a knowledge base. Eventually, the powerful combination of the GPT-4o-mini model and LangChain framework was used for the synthesis and technical simulation of these teaching-learning frameworks. Similarly, an educator-focused Learning Analytics Dashboard (LAD) was also developed by
-                        implementing the stages of the LAVA framework identified during the literature survey. This is also equipped with the ability to generate custom visualizations to cater to varying analytical goals of users, thereby serving as powerful tool for observing and analyzing the learning approach. </p>
-
-                    {/* <div className="mt-6">
+          {/* <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
                             </div> */}
+        </div>
+        <div className="lg:col-span-5 lg:px-8">
+          <Image
+            src="/images/works/12345.png"
+            alt=""
+            height={0}
+            width={0}
+            sizes="100vw"
+            style={{ height: "auto", width: "100%" }}
+            className="shadow-md shadow-gray-200 dark:shadow-gray-800"
+          />
+        </div>
+      </div>
 
-
-                </div>
-                <div className="lg:col-span-5 lg:px-8">
-
-                    <Image src="/images/works/12345.png" alt="" height={0} width={0} sizes="100vw" style={{ height: "auto", width: "100%" }} className="shadow-md shadow-gray-200 dark:shadow-gray-800" />
-
-
-
-                </div>
-            </div>
-
-
-
-            {/* <div className="container md:mt-24 mt-16">
+      {/* <div className="container md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Hobbies & Expertise</h3>
 
@@ -65,6 +84,6 @@ export default function Methodology() {
                     })}
                 </div>
             </div> */}
-        </section>
-    )
+    </section>
+  );
 }
