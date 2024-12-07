@@ -266,7 +266,7 @@ export const documentsData = {
       submitDate: "2024 January",
       imagePath: "/images/works/doc.png",
       pdfPath:
-        "https://drive.google.com/file/d/1XPcZdlEW7BJGn1ha8NR_WrRjt4LzQcn3/view?usp=sharing",
+        "https://drive.google.com/drive/u/3/folders/1IW1dH5dY2BMKGM9NslFgg6nv-g0YePLD",
     },
     {
       id: 2,
@@ -357,7 +357,8 @@ export const documentsData = {
       type: "Group",
       submitDate: "2024 October 29",
       imagePath: "/images/works/doc_3.png",
-      pdfPath: "",
+      pdfPath:
+        "https://docs.google.com/presentation/d/1v0-NtzOOc87nhN3xKbhKAMc5gfZi2w5o/edit?usp=drive_link&ouid=101231789596692966267&rtpof=true&sd=true",
     },
   ],
 };
