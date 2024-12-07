@@ -44,7 +44,13 @@ export default function Navbar() {
           {/* <!-- Navbar Button --> */}
           <ul className="list-none menu-social mb-0">
             <li className="inline-flex">
-              <Link1 to="contact" className="ms-1">
+              <Link1
+                to="contact"
+                className="ms-1"
+                style={{
+                  cursor: "pointer",
+                }}
+              >
                 <span className="login-btn-primary">
                   <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
                     <Unicons.UilEnvelope width={16} />
@@ -85,18 +91,24 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 className="nav-link"
+                style={{
+                  cursor: "pointer",
+                }}
               >
                 Home
               </Link1>
             </li>
             <li className="nav-item">
               <Link1
-                to="about"
+                to="project-scope"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="nav-link"
+                style={{
+                  cursor: "pointer",
+                }}
               >
                 Project Scope
               </Link1>
@@ -145,6 +157,9 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 className="nav-link"
+                style={{
+                  cursor: "pointer",
+                }}
               >
                 Timeline
               </Link1>
@@ -157,6 +172,9 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 className="nav-link"
+                style={{
+                  cursor: "pointer",
+                }}
               >
                 Documents
               </Link1>
@@ -169,6 +187,9 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 className="nav-link"
+                style={{
+                  cursor: "pointer",
+                }}
               >
                 Team
               </Link1>

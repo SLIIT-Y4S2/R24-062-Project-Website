@@ -1,17 +1,16 @@
-'use client'
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {expertiseData} from "../Data/data"
-import CountUp from 'react-countup';
+import { expertiseData } from "../Data/data";
+import CountUp from "react-countup";
 
-export default function ProblemAndSolution(){
-    
-    return(
-        <section className="relative md:py-24 py-16" id="about">
-            <div className="container">
-                <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-                    {/* <div className="lg:col-span-5 lg:px-8">
+export default function ProblemAndSolution() {
+  return (
+    <section className="relative md:py-24 py-16" id="project-scope">
+      <div className="container">
+        <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+          {/* <div className="lg:col-span-5 lg:px-8">
                         <div className="relative">
                             <div className="absolute inset-0 border dark:border-gray-800 rounded-full -mt-[10px] -ms-3 h-[100%] w-[100%] -z-1"></div>
                             <Image src="/images/ab2.jpg"  alt="" height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  className="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800"/>
@@ -28,31 +27,64 @@ export default function ProblemAndSolution(){
                         </div>
                     </div> */}
 
-                    <div className="lg:col-span-5">
-                        <div className="lg:ms-5">
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Research Problem</h3>
+          <div className="lg:col-span-5">
+            <div className="lg:ms-5">
+              <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
+                Research Problem
+              </h3>
 
-                            {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
-                            <p className="mb-6 text-slate-400 max-w-xl text-[15px]">Despite existing work in the domain of integrating LLMs in online learning to personalize and automate the teaching and learning process, there still exists a significant gap in adhering to standard teaching and learning techniques. The combination of simulating pedagogical frameworks with LLMs, and monitoring the learning approach via learning analytics in an online context, remains an area that requires further exploration.</p>
+              {/* <h5 className="mb-6 md:text-xl text-xl md:leading-normal leading-normal ">Problem</h5> */}
+              <p className="mb-6 text-slate-400 max-w-xl text-[15px]">
+                Despite existing work in the domain of integrating LLMs in
+                online learning to personalize and automate the teaching and
+                learning process, there still exists a significant gap in
+                adhering to standard teaching and learning techniques. The
+                combination of simulating pedagogical frameworks with LLMs, and
+                monitoring the learning approach via learning analytics in an
+                online context, remains an area that requires further
+                exploration.
+              </p>
 
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Proposed Solution</h3>
-                            <p className="text-slate-400 max-w-l text-[15px] mt-6">This project focuses on developing a novel personalized online learning platform, <b>SoloScholar</b>, for undergraduates in HEIs by considering three learning levels: beginner, intermediate, and advanced. The platform takes into account the three different teaching roles of a HEI as lecturer, tutor, and lab instructor and the associated pedagogical frameworks. These theoretical frameworks lay the foundation for the platform’s design and development in simulating these three teaching roles. <b>SoloScholar</b> leverages LLMs to simulate the standard teaching and learning techniques based on the pedagogical frameworks in the design and delivery of personalized educational content and student assessment. Additionally, it also incorporates a 3D virtual avatar to provide a more interactive learning environment along with an educator-focused learning analytics dashboard to monitor this online learning approach.</p>
-                        
-                            {/* <div className="mt-6">
+              <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
+                Proposed Solution
+              </h3>
+              <p className="text-slate-400 max-w-l text-[15px] mt-6">
+                This project focuses on developing a novel personalized online
+                learning platform, <b>SoloScholar</b>, for undergraduates in
+                HEIs by considering three learning levels: beginner,
+                intermediate, and advanced. The platform takes into account the
+                three different teaching roles of a HEI as lecturer, tutor, and
+                lab instructor and the associated pedagogical frameworks. These
+                theoretical frameworks lay the foundation for the platform’s
+                design and development in simulating these three teaching roles.{" "}
+                <b>SoloScholar</b> leverages LLMs to simulate the standard
+                teaching and learning techniques based on the pedagogical
+                frameworks in the design and delivery of personalized
+                educational content and student assessment. Additionally, it
+                also incorporates a 3D virtual avatar to provide a more
+                interactive learning environment along with an educator-focused
+                learning analytics dashboard to monitor this online learning
+                approach.
+              </p>
+
+              {/* <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
                             </div> */}
-                        </div>
-                    </div>
-
-                    <div className="lg:col-span-7 lg:px-8">
-                        <video width="750" height="500" controls>
-                            <source src="https://firebasestorage.googleapis.com/v0/b/betterhelpbackend.appspot.com/o/SoloScholar.mp4?alt=media&token=2c7ef722-2f1f-4997-90d4-bed749c11e0d" type="video/mp4" />
-                        </video>
-                        </div>
-                </div>
             </div>
+          </div>
 
-            {/* <div className="container md:mt-24 mt-16">
+          <div className="lg:col-span-7 lg:px-8">
+            <video width="750" height="500" controls>
+              <source
+                src="https://firebasestorage.googleapis.com/v0/b/betterhelpbackend.appspot.com/o/SoloScholar.mp4?alt=media&token=2c7ef722-2f1f-4997-90d4-bed749c11e0d"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Hobbies & Expertise</h3>
 
@@ -77,6 +109,6 @@ export default function ProblemAndSolution(){
                     })}
                 </div>
             </div> */}
-        </section>
-    )
+    </section>
+  );
 }

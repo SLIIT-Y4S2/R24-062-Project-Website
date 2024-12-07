@@ -5,11 +5,10 @@ import dynamic from "next/dynamic";
 const Navbar = dynamic(() => import("../components/Navbar"));
 const HeroOne = dynamic(() => import("../components/HeroOne"));
 const AboutUs = dynamic(() => import("../components/AboutUs"));
-const Services = dynamic(() => import("../components/Service"));
+const Services = dynamic(() => import("../components/ResearchGap"));
 const CTABanner = dynamic(() => import("../components/Technologies"));
 const Experience = dynamic(() => import("../components/Timeline"));
 const Documents = dynamic(() => import("../components/Documents"));
-const Clients = dynamic(() => import("../components/Clients"));
 const Team = dynamic(() => import("../components/Team"));
 const GetInTouch = dynamic(() => import("../components/GetInTouch"));
 const Footer = dynamic(() => import("../components/Footer"));
@@ -32,7 +31,6 @@ export default function IndexDark() {
       <CTABanner />
       <Experience />
       <Documents />
-      <Clients />
       <Team />
       <GetInTouch />
       <Footer />
