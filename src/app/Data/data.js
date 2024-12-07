@@ -309,7 +309,7 @@ export const documentsData = {
       title: "Individual Final Report",
       type: "Individual",
       submitDate: "2024 August 23",
-      imagePath: "/images/works/doc_2.png",
+      imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/drive/folders/1zn7B2hwq8yxFXRHjnn2CUJFELnVAi7RM?usp=sharing",
     },
@@ -318,7 +318,7 @@ export const documentsData = {
       title: "Group Final Report",
       type: "Group",
       submitDate: "2024 August 23",
-      imagePath: "/images/works/doc_2.png",
+      imagePath: "/images/works/doc.png",
       pdfPath:
         "https://drive.google.com/file/d/1uRkmeyCHd2jL14Uy3-7nCE7vNxxBLaXp/view?usp=sharing",
     },
