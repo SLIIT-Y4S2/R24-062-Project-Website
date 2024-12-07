@@ -83,7 +83,6 @@ export const servicesData = [
   // },
 ];
 
-
 export const mainObjectiveData = [
   {
     title: "Personalized Lecture Session",
@@ -266,7 +265,8 @@ export const documentsData = {
       type: "Group",
       submitDate: "2024 January",
       imagePath: "/images/works/doc.png",
-      pdfPath: "/images/members/12.pdf",
+      pdfPath:
+        "https://drive.google.com/drive/u/3/folders/1IW1dH5dY2BMKGM9NslFgg6nv-g0YePLD",
     },
     {
       id: 2,
@@ -366,7 +366,8 @@ export const documentsData = {
       type: "Group",
       submitDate: "2024 October 29",
       imagePath: "/images/works/doc_3.png",
-      pdfPath: "",
+      pdfPath:
+        "https://docs.google.com/presentation/d/1v0-NtzOOc87nhN3xKbhKAMc5gfZi2w5o/edit?usp=drive_link&ouid=101231789596692966267&rtpof=true&sd=true",
     },
   ],
 };
